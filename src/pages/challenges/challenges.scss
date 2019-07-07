@@ -1,0 +1,54 @@
+page-challenges {
+    .header-selector{
+        margin: 0 auto;
+        color: white;
+        text-align: center;
+        min-width: 190px;
+    }
+    // .select-md {
+    //     padding: 0;
+    // }
+    ion-select {
+        .select-icon {
+          .select-icon-inner {
+             color : white !important;
+          }
+        }
+      }
+
+
+}
+ion-app.md [padding] .scroll-content {
+    padding: 0;
+}
+.slider{
+    .range-md .range-knob {
+        background: yellowgreen;
+    }
+}
+
+#point-label{
+   color: red;
+}
+.advanced-color-changes{
+    font-size: 13pt;
+    font-weight: 500;
+    color: rgb(226, 82, 82);
+}
+.intermediate-color-changes{
+    font-size: 14pt;
+    font-weight: 500;
+    color: yellowgreen;
+}
+.beginner-color-changes{
+    font-size: 14pt;
+    font-weight: 500;
+    color: green;
+}
+.default-color-changes{
+    font-size: 14pt;
+    font-weight: 500;
+}
+.slider-desc{
+    font-size: 12pt;
+}

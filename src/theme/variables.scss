@@ -4,8 +4,22 @@
 // Font path is used to include ionicons,
 // roboto, and noto sans fonts
 $font-path: "../assets/fonts";
-
-
+$range-md-tick-height : 10px;
+$range-md-tick-width : 10px;
+$range-md-tick-background-color : rgb(175, 175, 175);
+$range-md-range-background-color : rgb(175, 175, 175);
+$range-md-knob-width: 38px;
+$range-md-tick-active-background-color : green;
+$range-md-pin-background-color : yellowgreen;
+$range-md-pin-color : yellowgreen;
+$range-md-bar-height : 3px;
+$range-md-knob-min-background-color : green;
+$range-md-bar-active-background-color : green;
+// $range-md-padding-horizontal : 1100px;
+$range-md-pin-min-background-color : yellowgreen;
+// $range-md-padding-vertical : 100px;
+$range-md-slider-height : 20px;
+// $range-md-hit-width : 100px;
 // The app direction is used to include
 // rtl styles in your app. For more info, please see:
 // http://ionicframework.com/docs/theming/rtl-support/
@@ -21,7 +35,6 @@ $app-direction: ltr;
 // the Sass variables found in Ionic's source scss files.
 // To view all the possible Ionic variables, see:
 // http://ionicframework.com/docs/theming/overriding-ionic-variables/
-
 
 
 
@@ -86,3 +99,4 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+
