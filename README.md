@@ -1,4 +1,3 @@
-# cardio-assessment-project
 
 ## Run the app
 
